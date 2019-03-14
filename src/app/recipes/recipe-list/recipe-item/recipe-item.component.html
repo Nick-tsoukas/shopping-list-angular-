@@ -1,2 +1,19 @@
-<p>recipe item</p>
-<h1>{{recipes[0].name}}</h1>
+<a href="#">
+    <div class="card list-group-item">
+      <div class="row ">
+        <div class="col-md-4">
+          <img
+            [src]="recipe.imagePath"
+            alt="{{ recipe.name }}"
+            class="w-100 image-responsive"
+          />
+        </div>
+        <div class="col-md-8 px-3">
+          <div class="card-block px-3">
+            <h4 class="card-title">{{ recipe.name}}</h4>
+            <p class="card-text">{{ recipe.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>

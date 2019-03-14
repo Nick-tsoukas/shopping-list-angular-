@@ -7,7 +7,7 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  @Input() recipes : Recipe[] = [
+   recipes : Recipe[] = [
     new Recipe('Steak', 'Steak and Eggs with sea salt and butter', '../../assets/images/steak-compressor.jpg'),
     new Recipe('Soup', 'Carrot soup made with vegetable and chicken stock', '../../assets/images/soup.jpg'),
     new Recipe('Steak', 'Steak and Eggs with sea salt and butter', '../../assets/images/steak-compressor.jpg')
