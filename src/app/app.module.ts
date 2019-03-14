@@ -21,7 +21,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipeListComponent,
     RecipeDetailComponent,
     RecipeItemComponent,
-    ShoppingEditComponent
+    ShoppingEditComponent,
   ],
   imports: [
     BrowserModule,

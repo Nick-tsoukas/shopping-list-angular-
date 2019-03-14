@@ -12,9 +12,12 @@ export class ShoppingListComponent implements OnInit {
         new Ingredient('apple', 4),
         new Ingredient('carrort', 3)
     ];
-    constructor() { }
+    constructor() {}
   
     ngOnInit() {
+        this.ingredients.forEach((val) => {
+            console.log(val.name)
+        })
     }
   
   }
